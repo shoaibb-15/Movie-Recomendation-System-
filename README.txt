@@ -1,30 +1,41 @@
-# 🎥 Movie Recommendation System (Hybrid Model + Streamlit)
+# 🎥 Movie Recommendation System – ML Project Overview
 
-A fully interactive Movie Recommendation Web App built using a **Hybrid Machine Learning Model** combined with a clean **Dark Mode Streamlit UI**.  
-The system suggests movies using Collaborative Filtering, Content-Based Filtering, and optional User Feedback.
-
----
-
-## 🚀 Features
-
-### 🔹 Hybrid Recommendation Engine
-- Collaborative Filtering (SVD Matrix Factorization)
-- Content-Based Similarity (Cosine Similarity)
-- Weighted scoring using sliders (α, β, γ)
-- Optional user feedback system (like/dislike)
-
-### 🔹 Streamlit Web App
-- Select a movie you like
-- Enter a User ID
-- Adjust weights for hybrid recommendation
-- View top recommendations instantly
-- Provide feedback for future enhancement
-
-### 🔹 Custom Dark UI
-- Light black background
-- Sharp fonts for readability
-- No sidebar (clean layout)
-- Dark styled input fields and tables
+A machine-learning powered recommendation engine built using Collaborative Filtering, Matrix Factorization, Content-Based Filtering, and a Hybrid Model. This document summarizes the complete workflow followed from data collection to final deployment-ready output.
 
 
+## 📌 Data Preparation
+- Collected dataset (MovieLens / Amazon Reviews / custom user–item data).
+- Cleaned and preprocessed records.
+- Handled missing values and normalized rating scales.
+- Performed EDA to understand user-item interactions and rating patterns.
+
+
+## 📌 Collaborative Filtering & Matrix Factorization
+- Implemented User-Based and Item-Based Collaborative Filtering models.
+- Built Matrix Factorization models using SVD and NMF.
+- Evaluated model accuracy using RMSE, MAE, and Precision@K.
+- Documented model performance and observations.
+
+
+## 📌 Content-Based & Hybrid System
+- Used TF-IDF on movie metadata to generate content similarity scores.
+- Combined collaborative and content-based outputs to build a Hybrid Recommender.
+- Integrated an optional user feedback mechanism for adaptive improvements.
+
+
+## 📌 Dashboard & Final Documentation
+- Created a simple demo dashboard/web interface to display recommendations.
+- Compared all models and visualized results.
+- Prepared final documentation with:
+  - Evaluation charts  
+  - Model comparison tables  
+  - Use-case scenarios  
+  - Key findings and insights  
+
+
+## ✅ Final Output
+- End-to-end hybrid recommendation pipeline  
+- Multiple models trained, evaluated, and compared  
+- Dashboard-ready demonstration system  
+- Complete documentation and visual reporting  
 
