@@ -26,7 +26,5 @@ The system suggests movies using Collaborative Filtering, Content-Based Filterin
 - No sidebar (clean layout)
 - Dark styled input fields and tables
 
----
 
-## 📁 Project Structure
 
